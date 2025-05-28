@@ -6,6 +6,8 @@ import { CalendarDays, User, Tag } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import {notFound} from 'next/navigation';
+import { CardFooter } from "@/components/ui/card";
+
 
 interface BlogPostPageProps {
   params: { slug: string };
