@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { mockArticles } from '@/lib/mockData';
 import { Newspaper, ArrowRight } from 'lucide-react';
 
+
 export default function BlogPage() {
   return (
     <div className="space-y-8">

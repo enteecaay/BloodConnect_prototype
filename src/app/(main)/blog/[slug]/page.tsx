@@ -1,12 +1,11 @@
 // src/app/(main)/blog/[slug]/page.tsx
 import Image from 'next/image';
 import { getArticleBySlug, mockArticles } from '@/lib/mockData'; // Assuming getArticleBySlug is implemented
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle,CardFooter } from '@/components/ui/card';
 import { CalendarDays, User, Tag } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import {notFound} from 'next/navigation';
-import { CardFooter } from "@/components/ui/card";
 
 
 interface BlogPostPageProps {
