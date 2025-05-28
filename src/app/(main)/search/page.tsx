@@ -73,7 +73,7 @@ export default function DonorSearchPage() {
                   <SelectValue placeholder="Any Blood Type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Any Blood Type</SelectItem>
+                  <SelectItem value="any">Any Blood Type</SelectItem>
                   {bloodTypeOptions.map(option => (
                     <SelectItem key={option.value} value={option.value}>{option.label}</SelectItem>
                   ))}
